@@ -1,30 +1,29 @@
 # DengAI: Predicting Disease Spread
 
 ## Table of Contents
-* Demo
-* Overview
-* Motivation
-* Technical Aspect
-* Installation
-* Run
-* Deployment
-* Directory tree
-* To do
-* Bug / Feature request
-* Technologies used
-* Team
-* License
-* Credits
+* [Demo](#demo)
+* [Overview](#overview)
+* [Motivation](#motivation)
+* [Technical Aspect](#technical-aspect)
+* [Installation](#installation)
+* [Run](#run)
+* [Deployment](#deployment)
+* [Directory tree](#directory-tree)
+* [To do](#to-do)
+* [Bug and Feature request](#bug-and-feature-request)
+* [Technologies used](#technologies-used)
+* [Team](#team)
+* [Credits](#credits)
 
 ## Demo
 
-## Overview (explains about the project)
+## Overview
 This project is about predicting the number of dengue cases each week (in each location) based on environmental variables describing changes in temperature, precipitation, vegetation, and more. Dengue fever is a mosquito-borne disease that occurs in tropical and sub-tropical parts of the world. In mild cases, it's similar to flu: fever, rash, and muscle and joint pain. In severe cases, dengue fever can cause severe bleeding, low blood pressure, and even death. Because it is carried by mosquitoes, the transmission dynamics of dengue are related to [climate variables](https://www.wabicc.org/en/manuals/using-climate-information-a-training-manual/climate-variables/). Although the relationship to climate is complex, a growing number of scientists argue that climate change is likely to produce distributional shifts that will have [significant public health implications worldwide](https://royalsocietypublishing.org/doi/full/10.1098/rstb.2014.0135). In recent years dengue fever has been spreading. Historically, the disease has been most prevalent in Southeast Asia and the Pacific islands. These days many of the nearly [half billion](https://www.cdc.gov/dengue/) cases per year are occurring in Latin America. Using environmental data collected by various U.S. Federal Government agencies (check credits for links), I will predict the number of dengue fever cases in San Juan, Puerto Rico and Iquitos, Peru.
 
 ## Motivation
 I've always wanted to help people, and I found my way doing it through data science. I hope this project will help in researching the prevention of dengue fever.
 
-## Techical Aspect
+## Technical Aspect
 This project is divided into two parts:
 
 1. Training a SVM model using sklearn.
@@ -45,7 +44,7 @@ https://docs.python.org/3/using/mac.html
 Unix (Linux, FreeBSD and OpenBS, OpenSolaris)
 https://docs.python.org/3/using/unix.html
 
-## Deployment on Heroku
+## Deployment
 
 ## Directory tree
 
@@ -56,7 +55,7 @@ https://docs.python.org/3/using/unix.html
 * New predictors
 2. An understanding of the relationship between climate and dengue dynamics can improve research initiatives and resource allocation to help fight life-threatening pandemics
 
-## Bug / Feature request
+## Bug and Feature request
 If you find a bug, kindly open an issue [here](https://github.com/Bane00000/Portfolio/issues) by including your search query and the expected result.
 
 If you'd like to request a new function, feel free to do so by opening an issue [here](https://github.com/Bane00000/Portfolio/issues). Please include sample queries and their corresponding results.
