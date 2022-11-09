@@ -15,13 +15,10 @@
 * [Team](#team)
 * [Credits](#credits)
 
-## Demo
+## Data
 
 ## Overview
 This project is about predicting the number of dengue cases each week (in each location) based on environmental variables describing changes in temperature, precipitation, vegetation, and more. Dengue fever is a mosquito-borne disease that occurs in tropical and sub-tropical parts of the world. In mild cases, it's similar to flu: fever, rash, and muscle and joint pain. In severe cases, dengue fever can cause severe bleeding, low blood pressure, and even death. Because it is carried by mosquitoes, the transmission dynamics of dengue are related to [climate variables](https://www.wabicc.org/en/manuals/using-climate-information-a-training-manual/climate-variables/). Although the relationship to climate is complex, a growing number of scientists argue that climate change is likely to produce distributional shifts that will have [significant public health implications worldwide](https://royalsocietypublishing.org/doi/full/10.1098/rstb.2014.0135). In recent years dengue fever has been spreading. Historically, the disease has been most prevalent in Southeast Asia and the Pacific islands. These days many of the nearly [half billion](https://www.cdc.gov/dengue/) cases per year are occurring in Latin America. Using environmental data collected by various U.S. Federal Government agencies (check credits for links), I will predict the number of dengue fever cases in San Juan, Puerto Rico and Iquitos, Peru.
-
-## Motivation
-I've always wanted to help people, and I found my way doing it through data science. I hope this project will help in researching the prevention of dengue fever.
 
 ## Technical Aspect
 This project is divided into two parts:
@@ -44,10 +41,6 @@ https://docs.python.org/3/using/mac.html
 Unix (Linux, FreeBSD and OpenBS, OpenSolaris)
 https://docs.python.org/3/using/unix.html
 
-## Deployment
-
-## Directory tree
-
 ## To do
 1. Improve the accuracy
 * Other models
@@ -61,7 +54,7 @@ If you find a bug, kindly open an issue [here](https://github.com/Bane00000/Port
 If you'd like to request a new function, feel free to do so by opening an issue [here](https://github.com/Bane00000/Portfolio/issues). Please include sample queries and their corresponding results.
 
 ## Technologies used
-<p align="left"> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/> </a> <p align="left"> <a href="https://numpy.org/" target="_blank" rel="noreferrer"> <img src="https://github.com/devicons/devicon/blob/master/icons/numpy/numpy-original.svg" alt="numpy" width="40" height="40"/> </a> <a href="https://jupyter.org/" target="_blank" rel="noreferrer"> <img src="https://github.com/devicons/devicon/blob/master/icons/jupyter/jupyter-original.svg" alt="jupyter" width="40" height="40"/> </a> <a href="https://flask.palletsprojects.com/en/2.2.x/" target="_blank" rel="noreferrer"> <img src="https://github.com/devicons/devicon/blob/master/icons/flask/flask-original.svg" alt="flask" width="40" height="40"/> </a> </p>
+<p align="left"> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/> </a> <p align="left"> <a href="https://numpy.org/" target="_blank" rel="noreferrer"> <img src="https://github.com/devicons/devicon/blob/master/icons/numpy/numpy-original.svg" alt="numpy" width="40" height="40"/> </a> <a href="https://jupyter.org/" target="_blank" rel="noreferrer"> <img src="https://github.com/devicons/devicon/blob/master/icons/jupyter/jupyter-original.svg" alt="jupyter" width="40" height="40"/> </a>
 
 ## Team
 Branislav Galović
