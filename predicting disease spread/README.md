@@ -1,14 +1,11 @@
 # DengAI: Predicting Disease Spread
 
 ## Table of Contents
-* [Demo](#demo)
+* [Data](#data)
 * [Overview](#overview)
-* [Motivation](#motivation)
 * [Technical Aspect](#technical-aspect)
 * [Installation](#installation)
 * [Run](#run)
-* [Deployment](#deployment)
-* [Directory tree](#directory-tree)
 * [To do](#to-do)
 * [Bug and Feature request](#bug-and-feature-request)
 * [Technologies used](#technologies-used)
