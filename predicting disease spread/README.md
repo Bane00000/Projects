@@ -7,7 +7,6 @@
 * [Installation](#installation)
 * [Run](#run)
 * [To do](#to-do)
-* [Bug and Feature request](#bug-and-feature-request)
 * [Technologies used](#technologies-used)
 * [Team](#team)
 * [Credits](#credits)
@@ -44,11 +43,6 @@ https://docs.python.org/3/using/unix.html
 * Hyperparameter tuning
 * New predictors
 2. An understanding of the relationship between climate and dengue dynamics can improve research initiatives and resource allocation to help fight life-threatening pandemics
-
-## Bug and Feature request
-If you find a bug, kindly open an issue [here](https://github.com/Bane00000/Portfolio/issues) by including your search query and the expected result.
-
-If you'd like to request a new function, feel free to do so by opening an issue [here](https://github.com/Bane00000/Portfolio/issues). Please include sample queries and their corresponding results.
 
 ## Technologies used
 <p align="left"> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/> </a> <p align="left"> <a href="https://numpy.org/" target="_blank" rel="noreferrer"> <img src="https://github.com/devicons/devicon/blob/master/icons/numpy/numpy-original.svg" alt="numpy" width="40" height="40"/> </a> <a href="https://jupyter.org/" target="_blank" rel="noreferrer"> <img src="https://github.com/devicons/devicon/blob/master/icons/jupyter/jupyter-original.svg" alt="jupyter" width="40" height="40"/> </a>
