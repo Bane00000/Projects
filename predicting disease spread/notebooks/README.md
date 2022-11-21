@@ -50,6 +50,11 @@ In statistics, mean absolute error (MAE) is a measure of errors between paired o
 
 ![image](https://user-images.githubusercontent.com/102976455/203092058-f884bc86-be9c-4f1d-84dc-4f4030395a39.png)
 
+# Feature Selection
+I've decided to use only two features for the model, since their correlation with target value is the highest.
+![image](https://user-images.githubusercontent.com/102976455/203101710-2522973a-6c1d-43d3-b423-8d897a17e837.png)
+
+
 # Prediction
 In average, my predictions for San Juan, Puerto Rico are 16.038 away from the actual number of dengue cases each week.
 ![image](https://user-images.githubusercontent.com/102976455/203093351-58d42cfb-b128-46fb-8825-972f67d67ff6.png)
