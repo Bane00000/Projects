@@ -36,4 +36,37 @@ In order to download data, you'll have to make an account at [DrivenData](https:
 * ndvi_ne – Pixel northeast of city centroid
 * ndvi_nw – Pixel northwest of city centroid
 
-# Model
+# Methodology
+
+## Support Vector Regression
+Support Vector Machines (SVMs) are well known in classification problems. The use of SVMs in regression is not as well documented, however. These types of models are known as Support Vector Regression (SVR). SVR gives us the flexibility to define how much error is acceptable in our model and will find an appropriate line (or hyperplane in higher dimensions) to fit the data.
+
+In contrast to OLS, the objective function of SVR is to minimize the coefficients — more specifically, the l2-norm of the coefficient vector — not the squared error. The error term is instead handled in the constraints, where we set the absolute error less than or equal to a specified margin, called the maximum error, ϵ (epsilon). We can tune epsilon to gain the desired accuracy of our model. Our new objective function and constraints are as follows:
+
+![image](https://user-images.githubusercontent.com/102976455/203091430-c1562710-4802-4914-89bb-d84ca6d8ee77.png)
+
+# Model Evaluation
+In statistics, mean absolute error (MAE) is a measure of errors between paired observations expressing the same phenomenon. Examples of Y versus X include comparisons of predicted versus observed, subsequent time versus initial time, and one technique of measurement versus an alternative technique of measurement. MAE is calculated as the sum of absolute errors divided by the sample size.
+
+![image](https://user-images.githubusercontent.com/102976455/203092058-f884bc86-be9c-4f1d-84dc-4f4030395a39.png)
+
+# Prediction
+In average, my predictions for San Juan, Puerto Rico are 16.038 away from the actual number of dengue cases each week.
+![image](https://user-images.githubusercontent.com/102976455/203093351-58d42cfb-b128-46fb-8825-972f67d67ff6.png)
+![image](https://user-images.githubusercontent.com/102976455/203093940-ebb2378c-bee6-4ab6-92b1-df96ea1b61ad.png)
+
+As for the Iquitos, Peru, the model is only wrong for 7.010. <br>
+![image](https://user-images.githubusercontent.com/102976455/203095008-866cdb92-e151-494f-b5f6-7e111ef2e4fb.png)
+![image](https://user-images.githubusercontent.com/102976455/203095575-56269b57-fd63-423f-b762-77cc683239d4.png)
+
+
+This is due to having less outliers for Iquitos, but that's also because there's less data than San Juan. There are a couple of things I did to prove this. I've split the data for San Juan. Target values (dengue cases) that are above 300, and below 100. I also did this by formula, both of which are in the 0.4 notebook. When working with only target values (dengue cases) below 100, I got a 10.92 mean absolute error. Which improved my previous model for about 5.4. <br>
+![image](https://user-images.githubusercontent.com/102976455/203097446-644587c7-4e43-4fe0-ac0f-0b8a3db0917f.png)
+![image](https://user-images.githubusercontent.com/102976455/203097505-c3cfe418-8928-43a3-ab1e-29a0a9e6d779.png)
+
+When done by formula, the model is slightly better, with the mean absolute error of 10.50.
+
+
+# Credits
+* Methodology: https://towardsdatascience.com/an-introduction-to-support-vector-regression-svr-a3ebc1672c2
+* Model Evaluation: https://en.wikipedia.org/wiki/Mean_absolute_error
