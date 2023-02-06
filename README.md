@@ -7,3 +7,10 @@
 * Used SVR model to predict dengue cases each week for two cities
 * Made diagnostics which show how far my predictions are
 * Analyzed outliers
+
+# [Finding the Best Chocolate Bars](https://github.com/Bane00000/Portfolio/tree/main/finding%20the%20best%20chocolate%20bars)
+![image](https://user-images.githubusercontent.com/102976455/217015503-5268bbf5-b51b-4b4e-9152-0632ab0c637a.png)
+
+* Used matplotlib and seaborn to make visualizations
+* Dataframe manipulation
+* Proving that cacao bean's origin is an indicator of quality
