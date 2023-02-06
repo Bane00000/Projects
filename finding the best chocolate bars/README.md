@@ -33,6 +33,19 @@ Branislav Galović
 
 # Analysis
 
+## Data
+- "id" - id number of the review
+- "manufacturer" - Name of the bar manufacturer
+- "company_location" - Location of the manufacturer
+- "year_reviewed" - From 2006 to 2021
+- "bean_origin" - Country of origin of the cacao beans
+- "bar_name" - Name of the chocolate bar
+- "cocoa_percent" - Cocoa content of the bar (%)
+- "num_ingredients" - Number of ingredients
+- "ingredients" - B (Beans), S (Sugar), S* (Sweetener other than sugar or beet sugar), C (Cocoa Butter), (V) Vanilla, (L) Lecithin, (Sa) Salt
+- "review" - Summary of most memorable characteristics of the chocolate bar
+- "rating" - 1.0-1.9 Unpleasant, 2.0-2.9 Disappointing, 3.0-3.49 Recommended, 3.5-3.9 Highly Recommended, 4.0-5.0 Oustanding
+
 ## Average Rating
 ![image](https://user-images.githubusercontent.com/102976455/217013060-6960fc76-bcfc-4fd0-914e-7415515fdbe0.png)
 There are a lot of **single rows or at least a couple of rows**, for example, Tobago for the column bean_origin with a rating of **3.25 and 4.00, averaging 3.75**. For that reason, there are a lot of outliers which might throw off the correct average rating and some other things, which I will adress later. I figured I would first count the **top couple most frequent values**, and get the average rating that way, dodging the outliers. **Outliers might be occuring due to lack of data, so keep that in mind.**
