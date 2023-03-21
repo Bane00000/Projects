@@ -14,3 +14,9 @@
 * Used matplotlib and seaborn to make visualizations
 * Dataframe manipulation
 * Proving that cacao bean's origin is an indicator of quality
+
+# [Data Modeling with PostgreSQL](https://github.com/Bane00000/Portfolio/tree/main/data%20modeling%20with%20postgres)
+
+* Used python to connect to the postgres database
+* Creating the database
+* Inserting data into database
