@@ -1,4 +1,4 @@
-# Portfolio
+# Projects
 
 # [DengAI: Predicting Disease Spread](https://github.com/Bane00000/Portfolio/tree/main/predicting%20disease%20spread)
 ![image](https://user-images.githubusercontent.com/102976455/203093351-58d42cfb-b128-46fb-8825-972f67d67ff6.png)
